@@ -19,7 +19,7 @@ const Rating = () => {
   return (
     <article className="font-primary flex flex-col w-[clamp(327px,90vw,412px)] bg-[linear-gradient(135deg,#232A34,#181E27)] p-6 rounded-xl">
       {isSubmitted ? (
-        <div className="flex flex-col items-center p-6 text-center gap-6">
+        <section className="flex flex-col items-center p-6 text-center gap-6">
           <img src={ThankYou} alt="Thank You Illustration" className="w-44" />
           <div className="bg-grey-medium px-4 py-1 rounded-full text-preset-5 text-orange mt-2">
             <p className="pt-1">You selected {selectedRating} out of 5</p>
@@ -31,9 +31,9 @@ const Rating = () => {
             We appreciate you taking the time to give a rating. If you ever need
             more support, don't hesitate to get in touch
           </p>
-        </div>
+        </section>
       ) : (
-        <div className="flex flex-col gap-6">
+        <section className="flex flex-col gap-6">
           <div className="bg-grey-medium w-12 h-12 md:w-14 md:h-14 rounded-full flex justify-center items-center brightness-105">
             <img src={StarIcon} alt="Star Icon" className="w-4 text-primary" />
           </div>
@@ -49,8 +49,9 @@ const Rating = () => {
             {[1, 2, 3, 4, 5].map((rating) => (
               <button
                 key={rating}
-                className={`w-12 h-12 md:w-14 md:h-14 pt-1 bg-grey-medium rounded-full text-grey-light flex justify-center items-center cursor-pointer hover:bg-white transition-colors font-bold hover:text-grey-dark ${selectedRating === rating ? 'bg-orange text-grey-very-dark' : ''}`}
+                className={`w-12 h-12 md:w-14 md:h-14 pt-1 bg-grey-medium rounded-full text-grey-light flex justify-center items-center cursor-pointer hover:bg-white transition-colors font-bold hover:text-grey-dark focus:outline-none focus:ring-2 focus:ring-white ${selectedRating === rating ? 'bg-orange text-grey-very-dark' : ''}`}
                 onClick={() => handleRatingSelection(rating)}
+                aria-pressed="false"
               >
                 {rating}
               </button>
@@ -58,14 +59,14 @@ const Rating = () => {
           </div>
           <div className="mt-2">
             <button
-              className="bg-orange w-full py-3 text-grey-very-dark rounded-full text-dark-gray uppercase font-bold hover:bg-white transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+              className="bg-orange w-full py-3 text-grey-very-dark rounded-full text-dark-gray uppercase font-bold hover:bg-white transition-colors cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed focus:outline-none focus:ring-2 focus:ring-white"
               onClick={handleSubmitRating}
               disabled={!selectedRating}
             >
               Submit
             </button>
           </div>
-        </div>
+        </section>
       )}
     </article>
   );
