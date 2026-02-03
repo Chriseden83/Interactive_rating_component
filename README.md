@@ -36,7 +36,7 @@ Your users should be able to:
 ### Links
 
 - Solution URL: [GitHub](https://github.com/Chriseden83/Interactive_rating_component)
-- Live Site URL: [News Homepage](https://beamish-dango-5d679e.netlify.app/)
+- Live Site URL: [Rating Component](https://beamish-dango-5d679e.netlify.app/)
 
 ## My process
 
