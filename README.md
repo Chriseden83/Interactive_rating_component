@@ -35,7 +35,7 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/Chriseden83/Interactive_rating_component/blob/main/src/assets/interative_rating.png)
+- Solution URL: [GitHub](https://github.com/Chriseden83/Interactive_rating_component)
 - Live Site URL: [News Homepage](https://beamish-dango-5d679e.netlify.app/)
 
 ## My process
@@ -53,7 +53,7 @@ I enjoyed using react and getting to know the ins and outs of using state, condi
 
 ### Continued development
 
-More practice with React, state, Tailwind CSS, themes, animations. I need to become more profficient in laying out JSX tage for styling purposes, i'm forever re-jigging elemets.
+More practice with React, state, Tailwind CSS, themes, animations. I need to become more profficient in laying out JSX tage for styling purposes, i'm forever re-jigging elemets. I also need to dig a bit further into theme variables when using Tailwind.
 
 ## Author
 
