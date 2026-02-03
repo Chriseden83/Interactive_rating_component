@@ -1,10 +1,10 @@
-# Frontend Mentor - News homepage solution
+# Frontend Mentor - Interactive Rating Component solution
 
-This is a solution to the [News homepage challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
-- [Frontend Mentor - News homepage solution](#frontend-mentor---news-homepage-solution)
+- [Frontend Mentor - Interactive Rating Component solution](#frontend-mentor---interactive-rating-component-solution)
   - [Table of contents](#table-of-contents)
   - [Overview](#overview)
     - [The challenge](#the-challenge)
