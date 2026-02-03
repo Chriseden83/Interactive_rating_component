@@ -35,8 +35,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://chriseden-news-homepage.netlify.app)
-- Live Site URL: [News Homepage](https://chriseden-news-homepage.netlify.app)
+- Solution URL: [GitHub](https://github.com/Chriseden83/Interactive_rating_component/blob/main/src/assets/interative_rating.png)
+- Live Site URL: [News Homepage](https://beamish-dango-5d679e.netlify.app/)
 
 ## My process
 
